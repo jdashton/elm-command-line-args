@@ -6,7 +6,7 @@ After cloning this repo, you'll need to install the Elm `core` package in this d
 ```
 elm package install
 ```
-Then compile `Main.elm` to produce `main.js':`
+Then compile `Main.elm` to produce `main.js`:
 ```
 elm make --output main.js Main.elm
 ```
