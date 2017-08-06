@@ -19,3 +19,5 @@ There's also an HTML file to play with, to get a sense of the more conventional 
 worker.ports.stdin.send(["var1", "var2"])
 ```
 Let me know what's good or bad about this example. I'm also interested in paring out any parts that aren't necessary to this demonstration.
+
+In this example I'm only reading one line from `stdin` and writing only a couple of lines to `stdout`. However, it should be possible to extend this to cover the most common features of a standard Unix filter.
