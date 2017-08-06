@@ -6,11 +6,9 @@
   <body>
     <script src="main.js"></script>
     <script>
-      var worker = Elm.Main.worker();
+      var worker = Elm.Main.worker()
 
-      worker.ports.stdout.subscribe(function(line) {
-        console.log(line);
-      });
+      worker.ports.stdout.subscribe( line => console.log(line) )
     </script>
   </body>
 </html>
