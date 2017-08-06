@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> test page </title>
+  </head>
+  <body>
+    <script src="main.js"></script>
+  <script>
+    var worker = Elm.Main.worker();
+
+    worker.ports.stdout.subscribe(function(line) {
+      console.log(line);
+    });
+  </script>
+  </body>
+</html>
